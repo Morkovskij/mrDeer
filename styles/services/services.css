@@ -1,0 +1,29 @@
+body {
+  background-image: url("../../imgs/background.png"); }
+
+.services {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 70px; }
+  .services__left-block {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    color: #ffffff;
+    margin-right: 180px; }
+    .services__left-block--title {
+      font-size: 36px; }
+    .services__left-block--navigation {
+      margin-top: 20px; }
+      .services__left-block--navigation a {
+        font-size: 18px;
+        line-height: 27px;
+        display: block;
+        color: rgba(255, 255, 255, 0.54); }
+  .services__text {
+    float: left;
+    font-size: 16px;
+    color: #ffffff; }
+
+/*# sourceMappingURL=services.css.map */
