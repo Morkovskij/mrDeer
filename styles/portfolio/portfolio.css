@@ -23,11 +23,6 @@
     width: 400px;
     height: 100%;
     display: block; }
-    .portfolioWrap__text--title {
-      font-family: 'LatoSemibold';
-      font-size: 36px;
-      font-variant: small-caps;
-      color: #ffffff; }
     .portfolioWrap__text--navigation a {
       display: block;
       color: #ffffff;
@@ -37,5 +32,9 @@
     float: left;
     background-color: rgba(33, 33, 33, 0.4);
     height: 56.5vh; }
+    .portfolioWrap__gallery img {
+      height: 200px;
+      width: 200px;
+      padding: 0 50px; }
 
 /*# sourceMappingURL=portfolio.css.map */
