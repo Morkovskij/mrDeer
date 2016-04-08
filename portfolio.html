@@ -3,12 +3,10 @@
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript">
-        $(window).scroll(function (e) {
-            parallax();
-        });
+        $(window).scroll(function(){parallax();});
         function parallax() {
-            var scrolled = $(window).scrollLeft();
-            $('.background_parallax').css('left', -(scrolled * 0.04) + 'px');
+            var scrolled = $(window).scrollLeft;
+            $('.portfolio__gallery').css('left', -(scrolled * 0.04) + 'px');
         }
     </script>
     <meta charset="UTF-8">
@@ -21,7 +19,7 @@
 <body>
 <div class="background_parallax"></div>
 <header style="position: fixed">
-    <div class="logo"><img src="imgs/type_logo.png" alt=""></div>
+    <div class="logo"><img src="imgs/Logo.png" alt=""></div>
     <div class="nav">
         <a href="">Портфолио</a>
         <a href="">Услуги</a>
@@ -31,21 +29,24 @@
 </header>
 <div class="title">Портфолио</div>
 <div class="flexWrap">
-    <div class="portfolioWrap">
-        <div class="portfolioWrap__text--navigation">
-            <a href="">Все</a>
-            <a href="">Мобилььные приложения</a>
-            <a href="">web сайты</a>
-            <a href="">логотипы</a>
+    <div class="portfolio">
+        <div class="portfolio__navigation">
+            <li href="">Всё</li>
+            <li href="">Сайты</li>
+            <li href="">Приложения</li>
+            <li href="">Логотипы</li>
         </div>
-        <div class="portfolioWrap__gallery">
-            <img src="imgs/King.png" alt="">
-            <img src="imgs/King.png" alt="">
-            <img src="imgs/King.png" alt="">
-            <img src="imgs/King.png" alt="">
-            <img src="imgs/King.png" alt="">
-            <img src="imgs/King.png" alt="">
-            <img src="imgs/King.png" alt="">
+        <div class="portfolio__gallery-wrapper">
+            <div class="portfolio__gallery">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+                <img class="portfolio__gallery--item" src="imgs/OldSkull_ver.png" alt="">
+            </div>
         </div>
     </div>
 </div>

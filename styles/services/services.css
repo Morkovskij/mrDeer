@@ -4,16 +4,14 @@ body {
 .services {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
-  margin: 70px; }
+  align-items: center;
+  margin: 150px 0 0 70px; }
   .services__left-block {
     display: flex;
     flex-direction: column;
     align-content: space-between;
     color: #ffffff;
     margin-right: 180px; }
-    .services__left-block--title {
-      font-size: 36px; }
     .services__left-block--navigation {
       margin-top: 20px; }
       .services__left-block--navigation a {
