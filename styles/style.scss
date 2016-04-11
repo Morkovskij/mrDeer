@@ -46,3 +46,19 @@ header {
   font-variant: small-caps;
   color: #ffffff;
 }
+
+button {
+  border: none;
+  outline: none;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  background-image: url("../imgs/deerButton.png");
+  background-position: 0 8px;
+  background-repeat: no-repeat;
+
+}
