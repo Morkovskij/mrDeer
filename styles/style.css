@@ -42,7 +42,8 @@ header {
   font-variant: small-caps;
   color: #ffffff; }
 
-button {
+.mrDeerButton {
+  cursor: pointer;
   border: none;
   outline: none;
   position: fixed;
@@ -51,9 +52,6 @@ button {
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background-color: #ffffff;
-  background-image: url("../imgs/deerButton.png");
-  background-position: 0 8px;
-  background-repeat: no-repeat; }
+  background: #ffffff url("../imgs/deerButton.png") no-repeat 0 8px; }
 
 /*# sourceMappingURL=style.css.map */

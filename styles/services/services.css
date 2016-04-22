@@ -1,6 +1,3 @@
-body {
-  background-image: url("../../imgs/background.png"); }
-
 .services {
   display: flex;
   justify-content: flex-start;
