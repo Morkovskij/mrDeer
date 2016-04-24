@@ -1,14 +1,22 @@
+.wrap {
+  background: url("../../imgs/serveces_bg.jpg") no-repeat center left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .services {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   margin: 150px 0 0 70px; }
   .services__left-block {
     display: flex;
     flex-direction: column;
     align-content: space-between;
     color: #ffffff;
-    margin-right: 180px; }
+    margin-right: 180px;
+    padding-top: 53px; }
     .services__left-block--navigation {
       margin-top: 20px; }
       .services__left-block--navigation a {
@@ -18,7 +26,11 @@
         color: rgba(255, 255, 255, 0.54); }
   .services__text {
     float: left;
-    font-size: 16px;
-    color: #ffffff; }
+    color: #fff;
+    font-family: LatoWeb;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-variant: small-caps; }
 
 /*# sourceMappingURL=services.css.map */

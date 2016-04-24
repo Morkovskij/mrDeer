@@ -20,10 +20,22 @@ header {
 }
 
 .nav a {
-  padding: 0 27px;
-  color: #ffffff;
+  margin: 0 27px;
+  padding-bottom: 17px;
+  color: rgba(255, 255, 255, .54);
   font-size: 18px;
   font-variant: small-caps;
+  line-height: 45px;
+  transition: .2s;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+#active {
+  color: #ffffff;
+  border-bottom: 2px solid white;
 }
 
 .main_info {
